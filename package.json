@@ -1,0 +1,22 @@
+{
+  "name": "basic-website-crud-backend",
+  "version": "1.0.0",
+  "description": "simple-API for backend service built in NodeJS Architect",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifs20035-itdel/basic-website-CRUD-backend.git"
+  },
+  "author": "michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifs20035-itdel/basic-website-CRUD-backend/issues"
+  },
+  "homepage": "https://github.com/ifs20035-itdel/basic-website-CRUD-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
