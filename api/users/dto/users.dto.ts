@@ -1,0 +1,19 @@
+import { Expose, Exclude } from 'class-transformer';
+
+export class UserDto {
+  @Expose()
+  firstName!: string;
+
+  @Expose()
+  lastName!: string;
+
+  @Expose()
+  email!: string;
+
+  @Expose()
+  age!: number;
+
+  @Exclude()
+  password!: string;
+
+}
