@@ -4,7 +4,7 @@
   "description": "simple-API for backend service built in NodeJS Architect",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,11 @@
     "class-transformer": "^0.5.1",
     "express": "^4.18.2",
     "mongodb": "^5.6.0",
+    "pg": "^8.11.0",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "dotenv": "^16.3.1",
+    "nodemon": "^1.14.9"
   }
 }
