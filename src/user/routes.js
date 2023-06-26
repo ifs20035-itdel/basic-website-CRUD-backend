@@ -1,10 +1,11 @@
 const { Router } = require('express');
+const controller = require('./controller');
 
 const router = Router();
 
-router.get('/', (req, res) =>{
-  res.send("using api route");
-})
+router.post('/user', controller.postUser);
+router.get('/user', controller.getUser);
+router.post('/register', controller.postRegis);
 
 
 module.exports = router;
