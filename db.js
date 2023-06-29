@@ -1,4 +1,4 @@
-const Pool = require('pg');
+const Pool = require('pg').Pool;
 const express = require('express');
 
 if (process.env.NODE_ENV !== "production") {
