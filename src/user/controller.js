@@ -9,14 +9,14 @@ const postRegis = (req, res) => {
 };
 
 const getUser = (req, res) => {
-  query("SELECT * FROM public.user", (error, XPathResult) =>{
+  query("SELECT * FROM public.user", (error, result) =>{
     if(error) throw error;
     res.status(200).json(result.rows);
-  })
+  });
 };
 
 module.exports = {
   postUser,
   postRegis,
   getUser,
-}
+};

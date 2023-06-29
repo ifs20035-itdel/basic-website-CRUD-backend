@@ -9,11 +9,11 @@ var app = express();
 
 
 const pool = new Pool({
-  user: app.get("user"),
-  host: app.get("host"),
-  database: app.get("db"),
-  password: app.get("pwd"),
-  port: app.get("port"),
+  user: app.get("DB_USERNAME"),
+  host: app.get("DB_HOST"),
+  database: app.get("DB_NAME"),
+  password: app.get("DB_PASSWORD"),
+  port: app.get("DB_PORT"),
 })
 
 module.exporst = pool;
