@@ -16,4 +16,6 @@ const pool = new Pool({
   port: app.get("DB_PORT"),
 })
 
+console.log(pool.database)
+
 module.exporst = pool;
