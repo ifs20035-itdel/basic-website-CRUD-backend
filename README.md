@@ -1,1 +1,7 @@
-# basic-website-CRUD-backend
+# Documentation
+
+### POST `/auth/register`
+
+#### Register endpoint
+
+#### Requirement
